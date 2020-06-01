@@ -1,0 +1,7 @@
+C:\Users\User\Documents\GitHub\CSharp20200601\_20200601_pirmaUzduotis\_20200601_pirmaUzduotis\bin\Debug\_20200601_pirmaUzduotis.exe.config
+C:\Users\User\Documents\GitHub\CSharp20200601\_20200601_pirmaUzduotis\_20200601_pirmaUzduotis\bin\Debug\_20200601_pirmaUzduotis.exe
+C:\Users\User\Documents\GitHub\CSharp20200601\_20200601_pirmaUzduotis\_20200601_pirmaUzduotis\bin\Debug\_20200601_pirmaUzduotis.pdb
+C:\Users\User\Documents\GitHub\CSharp20200601\_20200601_pirmaUzduotis\_20200601_pirmaUzduotis\obj\Debug\_20200601_pirmaUzduotis.csprojAssemblyReference.cache
+C:\Users\User\Documents\GitHub\CSharp20200601\_20200601_pirmaUzduotis\_20200601_pirmaUzduotis\obj\Debug\_20200601_pirmaUzduotis.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\CSharp20200601\_20200601_pirmaUzduotis\_20200601_pirmaUzduotis\obj\Debug\_20200601_pirmaUzduotis.exe
+C:\Users\User\Documents\GitHub\CSharp20200601\_20200601_pirmaUzduotis\_20200601_pirmaUzduotis\obj\Debug\_20200601_pirmaUzduotis.pdb

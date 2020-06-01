@@ -1,0 +1,7 @@
+C:\Users\User\Documents\GitHub\CSharp20200601\_20200601_\_20200601_\bin\Debug\_20200601_.exe.config
+C:\Users\User\Documents\GitHub\CSharp20200601\_20200601_\_20200601_\bin\Debug\_20200601_.exe
+C:\Users\User\Documents\GitHub\CSharp20200601\_20200601_\_20200601_\bin\Debug\_20200601_.pdb
+C:\Users\User\Documents\GitHub\CSharp20200601\_20200601_\_20200601_\obj\Debug\_20200601_.csprojAssemblyReference.cache
+C:\Users\User\Documents\GitHub\CSharp20200601\_20200601_\_20200601_\obj\Debug\_20200601_.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\CSharp20200601\_20200601_\_20200601_\obj\Debug\_20200601_.exe
+C:\Users\User\Documents\GitHub\CSharp20200601\_20200601_\_20200601_\obj\Debug\_20200601_.pdb
