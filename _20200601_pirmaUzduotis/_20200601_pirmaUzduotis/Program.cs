@@ -10,7 +10,9 @@ namespace _20200601_pirmaUzduotis
     {
         static void Main(string[] args)
         {
-            string Vardas = "Dominykas";
+            //<tipas> pavadinimą ;
+            //<tipas> pavadinimas = reikšmė
+            string Vardas = "Galime įterpti ir daug teksto";
             string PAvarde = "Rentelis";
             int Amzius = 28;
             double Ugis = 181.5;
@@ -20,16 +22,17 @@ namespace _20200601_pirmaUzduotis
             int Kursas;
             string StudijuProgramosPavadinimas;
             int AtsiskaitytaKreditu;
-
+            //-------------------------------------------
             Console.WriteLine("STUDENTO DUOMENYS");
             Console.WriteLine("{0} {1} ({2} m.)", Vardas, PAvarde, Amzius);
+            Console.WriteLine(Vardas + " " + PAvarde + "(" + Amzius + " m.)");
             Console.WriteLine("Jo ugis yra {0}, o svoris yra {1}", Ugis, Svoris);
-
+            //---------------------------------------------
             Console.WriteLine("Iveskite zodi arba sakini");
             string zodisArbaSakinys = Console.ReadLine();
             Console.WriteLine("Jusu ivestas tekstas");
             Console.WriteLine(zodisArbaSakinys);
-
+            //------------------------------------------------
             Console.WriteLine("Iveskite savo varda");
             string vardas = Console.ReadLine();
             Console.WriteLine("Iveskite megiamiausios spalvos pirma raide");
