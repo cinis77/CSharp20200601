@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_20200602_SkaičiavimoMašinėlė", "_20200602_SkaičiavimoMašinėlė\_20200602_SkaičiavimoMašinėlė.csproj", "{ABEBCEB3-A62D-4B89-88D2-9F83CD54F655}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABEBCEB3-A62D-4B89-88D2-9F83CD54F655}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABEBCEB3-A62D-4B89-88D2-9F83CD54F655}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABEBCEB3-A62D-4B89-88D2-9F83CD54F655}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABEBCEB3-A62D-4B89-88D2-9F83CD54F655}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FD9AA0A9-DB29-4851-BB4B-EDCE75C89043}
+	EndGlobalSection
+EndGlobal
