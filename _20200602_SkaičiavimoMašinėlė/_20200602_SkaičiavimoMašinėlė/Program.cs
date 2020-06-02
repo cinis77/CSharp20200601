@@ -21,7 +21,7 @@ namespace _20200602_SkaičiavimoMašinėlė
             {
                 Console.WriteLine(pirmas + antras);
             }
-            else if (zenklas == '-' )
+            else if (zenklas == '-') 
             {
                 Console.WriteLine(pirmas - antras);
             }
