@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_20200608_režiai", "_20200608_režiai\_20200608_režiai.csproj", "{4799AF00-1736-4FE8-9B8B-97A951845EFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4799AF00-1736-4FE8-9B8B-97A951845EFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4799AF00-1736-4FE8-9B8B-97A951845EFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4799AF00-1736-4FE8-9B8B-97A951845EFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4799AF00-1736-4FE8-9B8B-97A951845EFA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13079383-CAD4-4540-8F4D-B683302E09BF}
+	EndGlobalSection
+EndGlobal
