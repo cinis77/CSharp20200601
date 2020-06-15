@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{255A2B6C-A4B0-4B18-8A56-5BDC82214C34}</ProjectGuid>
+    <ProjectGuid>{22056F5D-143D-490C-B054-1DEA68518F7E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_20200611_PrezidentoRinkimai</RootNamespace>
-    <AssemblyName>_20200611_PrezidentoRinkimai</AssemblyName>
+    <RootNamespace>_20200615_Miestai</RootNamespace>
+    <AssemblyName>_20200615_Miestai</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -35,7 +35,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />

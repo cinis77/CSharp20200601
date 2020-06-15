@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Windows.Forms;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,9 +10,21 @@ namespace _20200611_PrezidentoRinkimai
 {
     class Program
     {
+        [STAThread]
         static void Main(string[] args)
         {
-            StreamReader reader = new StreamReader("kandidatai.txt");
+            string path = "";
+
+            using (OpenFileDialog ofd = new OpenFileDialog())
+            {
+                ofd.Filter = "Tekstinis failas |*.txt |*.csv | *.csv";
+                if (ofd.ShowDialog() == DialogResult.OK)
+                {
+                    path = ofd.FileName;
+                }
+            }
+
+            StreamReader reader = new StreamReader(path);
             string[] duomenys = reader.ReadLine().Split(' ');
             reader.Close();
             int maxRaidziuKiekis = 0;
