@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_20200625_Figuros", "_20200625_Figuros\_20200625_Figuros.csproj", "{C50774C5-6EEF-4D4F-A0E9-F7B0AB96AF5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C50774C5-6EEF-4D4F-A0E9-F7B0AB96AF5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C50774C5-6EEF-4D4F-A0E9-F7B0AB96AF5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C50774C5-6EEF-4D4F-A0E9-F7B0AB96AF5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C50774C5-6EEF-4D4F-A0E9-F7B0AB96AF5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD2C8DC7-5102-42FA-8256-2A3EE7C20BD4}
+	EndGlobalSection
+EndGlobal
