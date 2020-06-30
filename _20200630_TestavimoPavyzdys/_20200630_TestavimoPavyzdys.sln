@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_20200630_TestavimoPavyzdys", "_20200630_TestavimoPavyzdys\_20200630_TestavimoPavyzdys.csproj", "{9E43C0A0-C291-417D-99D0-78878A01C409}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_20200630_TestavimoPavyzdysUT", "_20200630_TestavimoPavyzdysUT\_20200630_TestavimoPavyzdysUT.csproj", "{E85CFFAE-65F3-4A34-BDF9-40A7808CF859}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E43C0A0-C291-417D-99D0-78878A01C409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E43C0A0-C291-417D-99D0-78878A01C409}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E43C0A0-C291-417D-99D0-78878A01C409}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E43C0A0-C291-417D-99D0-78878A01C409}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E85CFFAE-65F3-4A34-BDF9-40A7808CF859}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E85CFFAE-65F3-4A34-BDF9-40A7808CF859}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E85CFFAE-65F3-4A34-BDF9-40A7808CF859}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E85CFFAE-65F3-4A34-BDF9-40A7808CF859}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0E1E540-12BD-4F4F-80A1-B8888581E72E}
+	EndGlobalSection
+EndGlobal
