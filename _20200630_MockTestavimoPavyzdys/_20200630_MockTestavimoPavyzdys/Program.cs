@@ -10,11 +10,11 @@ using System.Threading.Tasks;
 namespace _20200630_MockTestavimoPavyzdys
 {
 
-    class Komunikacija
+    public class Komunikacija : IKomunikacija
     {
         TcpClient _Clientas;
         NetworkStream _Network;
-        public string IP { get;  }
+        public string IP { get; }
         public int PortNo { get; }
 
         public Komunikacija(string ip, int portNo)
@@ -48,12 +48,12 @@ namespace _20200630_MockTestavimoPavyzdys
     }
 
 
-    class DuomenuParuosimas
+    public class DuomenuParuosimas
     {
-        private Komunikacija Coms;
-        private GautiDuomenisIsFailo Data;
+        private IKomunikacija Coms;
+        private IGautiDuomenisIsFailo Data;
 
-        public DuomenuParuosimas(Komunikacija komunikacija, GautiDuomenisIsFailo data)
+        public DuomenuParuosimas(IKomunikacija komunikacija, IGautiDuomenisIsFailo data)
         {
             Coms = komunikacija;
             Data = data;
@@ -86,7 +86,7 @@ namespace _20200630_MockTestavimoPavyzdys
         }
     }
 
-    class GautiDuomenisIsFailo
+    public class GautiDuomenisIsFailo : IGautiDuomenisIsFailo
     {
         StreamReader reader;
 
