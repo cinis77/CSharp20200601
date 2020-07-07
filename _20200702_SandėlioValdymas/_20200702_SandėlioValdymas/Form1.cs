@@ -17,7 +17,7 @@ namespace _20200702_SandėlioValdymas
         {
             InitializeComponent();
             Sandelys = new List<Preke>();
-            SandelioVaizdas.DataSource = Sandelys;
+            //SandelioVaizdas.DataSource = Sandelys;
         }
 
         private void NewItemCreateButton_Click(object sender, EventArgs e)
@@ -37,8 +37,7 @@ namespace _20200702_SandėlioValdymas
 
         private void SandelioVaizdas_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            
-            var pasirinktasElementas = SandelioVaizdas;
+            var pasirinktasElementas = SandelioVaizdas.Rows[e.RowIndex].Cells[1].Value;
             MessageBox.Show(pasirinktasElementas.ToString()) ;
         }
     }
