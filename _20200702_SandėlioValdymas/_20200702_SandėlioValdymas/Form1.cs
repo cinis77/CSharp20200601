@@ -13,6 +13,8 @@ namespace _20200702_SandėlioValdymas
     public partial class Form1 : Form
     {
         private List<Preke> Sandelys;
+
+        private Preke PasirinktaPreke;
         public Form1()
         {
             InitializeComponent();
@@ -38,7 +40,44 @@ namespace _20200702_SandėlioValdymas
         private void SandelioVaizdas_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             var pasirinktasElementas = SandelioVaizdas.Rows[e.RowIndex].Cells[1].Value;
-            MessageBox.Show(pasirinktasElementas.ToString()) ;
+            foreach (var item in Sandelys)
+            {
+                if (item.Id == Convert.ToInt32(SandelioVaizdas.Rows[e.RowIndex].Cells[0].Value))
+                {
+                    PasirinktaPreke = item;
+                    break;
+                }
+            }
+            SelectedItemLabel.Text = pasirinktasElementas.ToString();
+        }
+
+        private void UpdateButton_Click(object sender, EventArgs e)
+        {
+            if (PasirinktaPreke != null)
+            {
+                foreach (var item in Sandelys)
+                {
+                    if (item.Id == PasirinktaPreke.Id)
+                    {
+                        item.Kaina = int.Parse(PriceText.Text);
+                        break;
+                    }
+                }
+                SandelioVaizdas.DataSource = null;
+                SandelioVaizdas.DataSource = Sandelys;
+            }
+        }
+
+        private void DeleteButton_Click(object sender, EventArgs e)
+        {
+            if (PasirinktaPreke != null)
+            {
+                Sandelys.Remove(PasirinktaPreke);
+                PasirinktaPreke = null;
+                SelectedItemLabel.Text = "-";
+                SandelioVaizdas.DataSource = null;
+                SandelioVaizdas.DataSource = Sandelys;
+            }
         }
     }
 }
