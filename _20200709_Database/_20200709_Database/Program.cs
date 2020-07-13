@@ -13,15 +13,14 @@ namespace _20200709_Database
         {
             string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\User\Documents\GitHub\CSharp20200601\_20200709_Database\_20200709_Database\DuomenuBaze.mdf;Integrated Security=True";
             SqlConnection connection = new SqlConnection(connectionString);
-            string querry = "SELECT * FROM Preke WHERE Kaina > 0.4";
+            string querry = "select count( Vardas) as kiekis from Vartotojai Where Vardas is not null";
             SqlCommand command = new SqlCommand(querry, connection);
             connection.Open();
             var skaitytojas = command.ExecuteReader();
             while (skaitytojas.Read())
             {
-                Console.Write(skaitytojas["Id"].ToString() + " ");
-                Console.Write(skaitytojas["Pavadinima"] + " ");
-                Console.WriteLine(skaitytojas["Kaina"].ToString());
+
+                Console.WriteLine(skaitytojas["kiekis"].ToString());
             }
             
         }
