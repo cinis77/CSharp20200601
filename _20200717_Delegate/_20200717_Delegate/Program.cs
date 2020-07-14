@@ -20,8 +20,12 @@ namespace _20200717_Delegate
 
         public void Metodas(string key)
         {
+            ManoPirmasDelegatas dele = StrategyPatern[key];
+           
             for (int i = 0; i < 1000; i++)
             {
+                dele(i);
+                StrategyPatern[key](i);
                 Console.WriteLine(StrategyPatern[key](i));
             }
         }
@@ -39,8 +43,14 @@ namespace _20200717_Delegate
             mano.StrategyPatern.Add("1", Metodas);
             mano.StrategyPatern.Add("2", MetodasA);
             Console.WriteLine("Iveskite 1 arba 2");
+            mano.StrategyPatern.Add("3", MetodasB);
             var duomuo = Console.ReadLine();
             mano.Metodas(duomuo);
+        }
+
+        private static string MetodasB(int skaicius)
+        {
+            return "Labas";
         }
 
         private static string MetodasA(int skaicius)
