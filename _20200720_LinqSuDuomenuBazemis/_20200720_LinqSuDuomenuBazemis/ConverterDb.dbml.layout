@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="ConverterDb">
+  <DataContextMoniker Name="/ConverterDbDataContext" />
+  <nestedChildShapes>
+    <classShape Id="c0796a15-88d0-4992-a7cc-96fc9322eb9a" absoluteBounds="2.625, 1, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/ConverterDbDataContext/Klienta" />
+      <nestedChildShapes>
+        <elementListCompartment Id="371b2354-e5d8-44a8-9e7c-5eee709de649" absoluteBounds="2.6399999999999997, 1.46, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1a3e031d-d5c8-4cb1-9055-908973f48fe1" absoluteBounds="8.25, 0.875, 2, 1.9631982421875">
+      <DataClassMoniker Name="/ConverterDbDataContext/Adresai" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9c72dbb8-f2ca-4af7-ba92-30a4784b9a42" absoluteBounds="8.265, 1.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4.625 : 1.88544840494792); (8.25 : 1.88544840494792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ConverterDbDataContext/Klienta/Klienta_Adresai" />
+      <nodes>
+        <classShapeMoniker Id="c0796a15-88d0-4992-a7cc-96fc9322eb9a" />
+        <classShapeMoniker Id="1a3e031d-d5c8-4cb1-9055-908973f48fe1" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

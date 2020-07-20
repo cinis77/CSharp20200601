@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="CRM" Class="ConverterDbDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\CRM.mdf;Integrated Security=True" SettingsObjectName="_20200720_LinqSuDuomenuBazemis.Properties.Settings" SettingsPropertyName="CRMConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Klientas" Member="Klientas">
+    <Type Name="Klienta">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Vardas" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Pavarde" Type="System.String" DbType="NVarChar(40) NOT NULL" CanBeNull="false" />
+      <Column Name="GimimoDiena" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="Klienta_Adresai" Member="Adresais" ThisKey="Id" OtherKey="KlientoId" Type="Adresai" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Adresai" Member="Adresais">
+    <Type Name="Adresai">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Gatve" Type="System.String" DbType="NVarChar(25)" CanBeNull="true" />
+      <Column Name="Miestas" Type="System.String" DbType="NVarChar(25)" CanBeNull="true" />
+      <Column Name="Valstybe" Type="System.String" DbType="NVarChar(25)" CanBeNull="true" />
+      <Column Name="PastoKodas" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="KlientoId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Klienta_Adresai" Member="Klienta" ThisKey="KlientoId" OtherKey="Id" Type="Klienta" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>
