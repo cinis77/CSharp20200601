@@ -31,6 +31,8 @@
             this.jokeBtn = new System.Windows.Forms.Button();
             this.JokeText = new System.Windows.Forms.TextBox();
             this.TypeOfJoke = new System.Windows.Forms.ComboBox();
+            this.FactGenerate = new System.Windows.Forms.Button();
+            this.SearchBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // jokeBtn
@@ -59,11 +61,30 @@
             this.TypeOfJoke.Size = new System.Drawing.Size(156, 32);
             this.TypeOfJoke.TabIndex = 2;
             // 
+            // FactGenerate
+            // 
+            this.FactGenerate.Location = new System.Drawing.Point(258, 38);
+            this.FactGenerate.Name = "FactGenerate";
+            this.FactGenerate.Size = new System.Drawing.Size(172, 82);
+            this.FactGenerate.TabIndex = 3;
+            this.FactGenerate.Text = "Fact";
+            this.FactGenerate.UseVisualStyleBackColor = true;
+            this.FactGenerate.Click += new System.EventHandler(this.FactGenerate_Click);
+            // 
+            // SearchBox
+            // 
+            this.SearchBox.Location = new System.Drawing.Point(258, 145);
+            this.SearchBox.Name = "SearchBox";
+            this.SearchBox.Size = new System.Drawing.Size(166, 29);
+            this.SearchBox.TabIndex = 4;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1027, 577);
+            this.Controls.Add(this.SearchBox);
+            this.Controls.Add(this.FactGenerate);
             this.Controls.Add(this.TypeOfJoke);
             this.Controls.Add(this.JokeText);
             this.Controls.Add(this.jokeBtn);
@@ -79,6 +100,8 @@
         private System.Windows.Forms.Button jokeBtn;
         private System.Windows.Forms.TextBox JokeText;
         private System.Windows.Forms.ComboBox TypeOfJoke;
+        private System.Windows.Forms.Button FactGenerate;
+        private System.Windows.Forms.TextBox SearchBox;
     }
 }
 

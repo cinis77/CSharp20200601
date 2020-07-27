@@ -55,5 +55,17 @@ namespace _20200727_API
                 JokeText.Text = tekstas.joke;
             }
         }
+
+        private async void FactGenerate_Click(object sender, EventArgs e)
+        {
+            HttpClient client = new HttpClient();
+            client.DefaultRequestHeaders.Add("Authorization", "Token 3b220bca9aba0cb18c4da38d23c860bbba02fa8d");
+            var response = await client.GetAsync("https://owlbot.info/api/v4/dictionary/"+SearchBox.Text);
+            var zinute = await response.Content.ReadAsStringAsync();
+
+            var mess = JsonConvert.DeserializeObject<Faktai>(zinute);
+
+            JokeText.Text = mess.word + Environment.NewLine + mess.definitions[0].definition;
+        }
     }
 }
