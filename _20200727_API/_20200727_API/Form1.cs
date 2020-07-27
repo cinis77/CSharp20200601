@@ -40,12 +40,6 @@ namespace _20200727_API
             HttpRequestMessage mess = new HttpRequestMessage(HttpMethod.Get, 
                 "https://sv443.net/jokeapi/v2/joke/Programming"
                 + TypeOfJokeToUSe[TypeOfJoke.SelectedItem.ToString()]);
-            
-            Dictionary<string, string> parametras = new Dictionary<string, string>();
-            parametras.Add("type", "single");
-
-            //mess.Content = new FormUrlEncodedContent(parametras);
-
 
             var response = await client.SendAsync(mess);
             var zinute = await response.Content.ReadAsStringAsync();
