@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_20200730_SaugojimasSlaptazodziu", "_20200730_SaugojimasSlaptazodziu\_20200730_SaugojimasSlaptazodziu.csproj", "{16538653-D273-4A1D-8C5E-06508F445D0F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16538653-D273-4A1D-8C5E-06508F445D0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16538653-D273-4A1D-8C5E-06508F445D0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16538653-D273-4A1D-8C5E-06508F445D0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16538653-D273-4A1D-8C5E-06508F445D0F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D208C0E-AC51-418B-90AF-6754C359F700}
+	EndGlobalSection
+EndGlobal
